@@ -61,6 +61,15 @@
 
     }
 
+    .donation-container {
+        background-color: aliceblue;
+        padding: 2%;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 460px;
+        margin-bottom: 10%;
+    }
+
     .footer-details {
         width: 50%;
         margin: 5%;
@@ -100,7 +109,8 @@
         font-size: 14px;
         font-style: normal;
     }
-    .donation-title{
+
+    .donation-title {
         margin-left: 20%;
         font-family: "Roboto Slab", serif;
         margin-top: 3%;
@@ -108,7 +118,8 @@
         font-size: 18px;
 
     }
-    .donate-btn{
+
+    .donate-btn {
         border: none;
         border-radius: 20px;
         color: white;
@@ -123,23 +134,11 @@
         background-color: black;
         font-size: 14px;
         margin-left: 40%;
-        margin-bottom: 20%;
-        
-    }
-    .donation-form{
-        width: 20%;
-        margin-left: 40%;
-        margin-top: 3%;
+        margin-bottom: 40%;
 
     }
-    .donate-input{
-        margin: 5%;
-        border-radius: 20px;
-        border: black solid 2px;
-        font-weight: lighter;
-        font-size: 18px;
 
-    }
+
 
     .h1 {
         color: #222;
@@ -165,7 +164,8 @@
 
 
     }
-    .about-btns-zmanim{
+
+    .about-btns-zmanim {
         border: none;
         border-radius: 20px;
         color: white;
@@ -183,7 +183,7 @@
         margin-left: 40%;
     }
 
-    .about-btns-event{
+    .about-btns-event {
         border: none;
         border-radius: 20px;
         font-weight: lighter;
@@ -199,34 +199,46 @@
         padding-bottom: 14px;
         margin: 1%;
     }
-    .about-click-btn{
+
+    .about-click-btn {
         display: flex;
     }
-    
 
-    .rabbi-img{
+
+    .rabbi-img {
         border-radius: 50%;
         width: 25%;
-        margin-left: 38%; 
+        margin-left: 38%;
         margin-top: 3%;
         margin-bottom: 5%;
 
     }
-    .about-title{
+
+    .about-title {
         font-weight: lighter;
         font-size: 20px;
         margin-top: 5%;
         font-family: "Roboto Slab", serif;
         margin-left: 5%;
     }
-    .about-our-rabbi{
+    .daven-title{
+        font-weight: lighter;
+        font-size: 20px;
+        margin-top: 5%;
+        font-family: "Roboto Slab", serif;
+        margin-left: 5%;
+    }
+    
+
+    .about-our-rabbi {
         font-weight: lighter;
         text-align: center;
         font-size: 18px;
         font-family: "Roboto Slab", serif;
         margin-top: 5%;
     }
-    .email-rabbi{
+
+    .email-rabbi {
         border: none;
         border-radius: 20px;
         color: white;
@@ -241,22 +253,128 @@
         padding-bottom: 14px;
         margin-left: 45%;
     }
-    .footer-det{
+
+    .footer-det {
         font-weight: bold;
-     }
-  
-    .title-daven{
+    }
+
+    .title-daven {
         text-align: center;
+        margin-bottom: 2%;
         font-weight: lighter;
         font-family: "Roboto Slab", serif;
     }
-    .daven-details{
+
+    .daven-details {
         margin-top: 2%;
         margin-bottom: 5%;
         display: list-item;
         text-align: center;
     }
 
+    .account {
+        background-color: aliceblue;
+        padding: 2%;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 470px;
+        margin-bottom: 10%;
+    }
+    
+    .account_signup {
+        background-color: aliceblue;
+        padding: 2%;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 550px;
+        margin-bottom: 10%;
+    }
+
+
+    /* .account_login {} */
+
+    .account-fileds {
+        margin-left: 20%;
+        margin-top: 1%;
+    }
+
+    .account-fileds-signup {
+        margin-left: 20%;
+        margin-top: 1%;
+        
+    }
+
+
+    .donation-form {
+        margin-left: 20%;
+        margin-top: 1%;
+
+    }
+
+    .account-text {
+        width: 30%;
+        margin: 1%;
+    }
+
+    .donate-text {
+        width: 30%;
+        margin: 1%;
+
+    }
+
+    .login_btn {
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-family: "Roboto Slab", serif;
+        padding: 10px;
+        background-color: black;
+        font-size: 16px;
+        font-weight: lighter;
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .donate-btn {
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-family: "Roboto Slab", serif;
+        padding: 10px;
+        background-color: black;
+        font-size: 14px;
+        font-weight: lighter;
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 1%;
+        margin-top: 1%;
+
+    }
+
+    .signup {
+        text-decoration: none;
+        border: none;
+        color: black;
+        font-family: "Roboto Slab", serif;
+        font-size: 20px;
+        font-weight: lighter;
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-left: 2px;
+        margin-top: 2%;
+
+    }
 </style>
 
 
@@ -267,11 +385,11 @@
             <li class="nav-item">
             <li class="nav-item dropdown">
             <li><a class="nav-link daven" href="index">HOME</a></li>
-                <a class="nav-link dropdown-toggle about" data-bs-toggle="dropdown" href="#">ABOUT</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about">Rav Ori Millrod</a></li>
-                   
-                </ul>
+            <a class="nav-link dropdown-toggle about" data-bs-toggle="dropdown" href="#">ABOUT</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about">Rav Ori Millrod</a></li>
+
+            </ul>
             </li>
             <li><a class="nav-link daven" href="daven">DAVEN</a></li>
             <li><a class="nav-link donate" href="donate">DONATE</a></li>
@@ -286,7 +404,7 @@
                 </li> -->
                 </ul>
             </li>
-            <li><a class="nav-link my_account" href="#">MY ACCOUNT</a></li>
+            <li><a class="nav-link my_account" href="account">MY ACCOUNT</a></li>
             </li>
         </ul>
     </nav>

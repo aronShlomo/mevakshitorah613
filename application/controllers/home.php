@@ -53,16 +53,18 @@ public function __construct()
 		if($donation){  
 			// $this->session->set_flashdata('donation', 'Thank you for your donation');
 			 return redirect('https://www.paypal.com/signin');
-
 		}
-
-
-
-
-		
-		
 	}
 
+
+	   public function account(){
+		$this->load->view('account');
+	   }
+
+
+	   public function signup(){
+		$this->load->view('signup');
+	   }
 
 
 
