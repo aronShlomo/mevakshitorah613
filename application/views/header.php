@@ -169,6 +169,7 @@
         border: none;
         border-radius: 20px;
         color: white;
+        text-decoration: none;
         font-family: "Roboto Slab", serif;
         padding: 10px;
         background-color: black;
@@ -314,11 +315,13 @@
     .account-text {
         width: 30%;
         margin: 1%;
+        border-radius: 15px;
     }
 
     .donate-text {
         width: 30%;
         margin: 1%;
+        border-radius: 15px;
 
     }
 

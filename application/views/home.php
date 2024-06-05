@@ -12,7 +12,8 @@ require_once(APPPATH . 'views/header.php');
 </div>
 
 <div class="about-click-btn">
-    <button class="about-btns-zmanim ">Shul Zmanim</button>
+    <a href="daven" class="about-btns-zmanim ">Shul Zmanim</a>
+
     <button class="about-btns-event ">Event</button>
 </div>
 
