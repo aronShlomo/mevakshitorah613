@@ -5,8 +5,19 @@ require_once(APPPATH . 'views/header.php');
 
 
 
+
+<div class="hebcal-shabbat"  id="hebcal-shabbat"></div>
+<script>
+fetch('https://www.hebcal.com/shabbat?cfg=i2&zip=21209&ue=off&b=18&M=on&lg=a&tgt=_top')
+  .then(response => response.text())
+  .then(data => document.getElementById('hebcal-shabbat').innerHTML = data);
+</script>
+
+
+
+
 <p class="daven-title" style="font-family:Roboto Slab, serif;
-font-weight: lighter; font-size: 20px;  ">DAVENING TIMES </p>
+font-weight: lighter; font-size: 20px;  ">MEVAKSHI TORAH <BR>DAVENING TIMES </p>
 
 
 <h2 class="title-daven" style="font-weight: bold;" >שבת קודש פרשת בהר</h2>
@@ -21,6 +32,12 @@ font-weight: lighter; font-size: 20px;  ">DAVENING TIMES </p>
  
   
 </div>
+
+
+
+
+
+
 
 
 <hr>

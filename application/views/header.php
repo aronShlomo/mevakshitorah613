@@ -7,9 +7,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Mevakshi Torah</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <style>
+    #dots{
+        color: black;
+        font-size:18px;
+        font-weight: bold;
+        
+    }
+    .rabbi-about{
+        margin: 50px;
+        font-size: 20px;
+        font-style: italic;
+
+
+    }
+    #myBtn{
+        border: none;
+        background-color: white !important;
+        color: black;
+        font-size:20px;
+        font-weight: bolder;
+        margin-left: 50px;
+
+    }
+    #more {
+        display: none;
+        font-size: 22px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
     .navigation-top {
         font-size: 14px;
         background-color: whitesmoke;
@@ -31,7 +62,7 @@
     .my_account,
     .news {
         color: black;
-        margin: 17px;
+        margin: 12px;
         padding: 17px;
         font-weight: bold;
         font-size: 17px;
@@ -222,14 +253,15 @@
         font-family: "Roboto Slab", serif;
         margin-left: 5%;
     }
-    .daven-title{
+
+    .daven-title {
         font-weight: lighter;
         font-size: 20px;
         margin-top: 5%;
         font-family: "Roboto Slab", serif;
         margin-left: 5%;
     }
-    
+
 
     .about-our-rabbi {
         font-weight: lighter;
@@ -281,7 +313,7 @@
         height: 470px;
         margin-bottom: 10%;
     }
-    
+
     .account_signup {
         background-color: aliceblue;
         padding: 2%;
@@ -302,7 +334,7 @@
     .account-fileds-signup {
         margin-left: 20%;
         margin-top: 1%;
-        
+
     }
 
 
@@ -378,6 +410,15 @@
         margin-top: 2%;
 
     }
+
+    .hebcal-shabbat {
+        background-color: #222;
+        color: #fff;
+        padding: 5%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 25px;
+    }
 </style>
 
 
@@ -394,7 +435,7 @@
 
             </ul>
             </li>
-            <li><a class="nav-link daven" href="daven">DAVEN</a></li>
+            <li><a class="nav-link daven" href="daven">ZMANIM</a></li>
             <li><a class="nav-link donate" href="donate">DONATE</a></li>
             <li><a class="nav-link event" href="#">EVENTS</a></li>
             <li><a class="nav-link learn" href="#">LEARN</a></li>
